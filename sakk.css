@@ -1,22 +1,33 @@
-body{
+body {
     background-image: url(https://img.freepik.com/premium-photo/brown-wood-texture-with-pattern-close-up_1004172-89.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-table{
-    border-collapse: collapse;
-    width: 30rem;
-    height: 30rem;
+
+table {
     margin: auto;
     margin-block: 10rem;
+    border-collapse: collapse;
 }
-td{
-    padding: 2rem;
+
+img {
+    width: 4rem;
+    height: 4rem;
+}
+
+td {
+    width: 4rem;
+    height: 4rem;
     background-color: rgb(243, 236, 236);
 }
-tr:nth-child(odd) td:nth-child(odd){
+
+tr:nth-child(odd) td:nth-child(odd) {
     background-color: black;
 }
-tr:nth-child(even) td:nth-child(even){
-    background-color: black; 
+
+tr:nth-child(even) td:nth-child(even) {
+    background-color: black;
 }
